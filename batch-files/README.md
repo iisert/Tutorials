@@ -1,3 +1,3 @@
 # What is in here?
 
-1. The script `jupyter-tunnel.sh` contains a handy script to directly connect to a free node on the institute cluster.
+1. The folder `jupyter on hpc` contains handy scripts to directly connect to a free node on the institute cluster.
