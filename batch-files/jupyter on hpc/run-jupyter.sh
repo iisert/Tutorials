@@ -7,7 +7,7 @@ masterpass= #your pass
 loginip=172.27.1.152 #masternode ip address
 
 # Connecting to masternode by using pass
-sshpass -p $masterpass ssh -o StrictHostKeyChecking=no -L $myport:localhost:$myport $iam@$loginip
+sshpass -p $masterpass ssh -o StrictHostKeyChecking=no -L $myport:localhost:$myport $iam@$loginip "bash sshtunneltonode.sh"
 
 # Connecting to masternode by using keys
 #ssh -L $myport:localhost:$myport $iam@$loginip "bash sshtunneltonode.sh"
